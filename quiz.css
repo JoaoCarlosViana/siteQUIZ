@@ -168,8 +168,8 @@ section{
 .quadrados{
 
     border-radius: 15px;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     margin: 20px;
 
     display: flex;
@@ -216,7 +216,6 @@ section{
     background-size: cover;
     background-position: center;
 
-    margin-top: -100px;
 
 }
 .eclipse2{
@@ -227,7 +226,7 @@ section{
     background-size: cover;
     background-position: center;
 
-    margin-top: -100px;
+  
 }
 .eclipse3{
     width: 200px;
@@ -236,36 +235,33 @@ section{
     background-image: url('logo_pedagogia-removebg-preview.png');
     background-size: cover;
     background-position: center;
-
-    margin-top: -100px;
 }
 
 
 /* RESPONSIVO */
-
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+  .autoestima-text span {
+    font-size: 2rem;
+  }
 
   .title {
     font-size: 28px;
     text-align: center;
-    margin: 30px 10px;
-  }
-
-  .autoestima-text span {
-    font-size: 2.5rem;
-  }
-
-  section {
-    flex-direction: column;
-    margin-top: 60px;
-    padding: 10px;
+    margin: 20px;
   }
 
   .quadrados {
     width: 90%;
-    height: auto;
+    height: 300px;
     padding: 20px;
     margin: 15px 0;
+  }
+
+  .botao {
+    width: 80%;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 30px;
   }
 
   .eclipse,
@@ -276,20 +272,12 @@ section{
     margin-top: -60px;
   }
 
-  .botao {
-    width: 60%;
-    height: 40px;
-    font-size: 1rem;
-    margin-top: 30px;
+  section {
+    flex-direction: column;
+    margin-top: 50px;
   }
 
-  .shooting-star {
-    width: 60px;
-    height: 2px;
+  .imagem {
+    width: 100%;
   }
-}
-
-.bloqueado {
-    background-color: gray;
-    cursor: not-allowed;
 }
