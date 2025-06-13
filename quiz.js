@@ -66,7 +66,7 @@ function showQuestion(index) {
 }
 
 function startTimer() {
-    let timeLeft = 60;
+    let timeLeft = 40;
     const timerDisplay = document.createElement('div');
     timerDisplay.classList.add('timer-display');
     timerDisplay.textContent = `Tempo restante: ${timeLeft}s`;
