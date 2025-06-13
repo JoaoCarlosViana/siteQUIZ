@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Psicologia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pscg.css">
+</head>
+<body>
+<!-- TELA DE LOGIN  -->
+  <section class="login">
+
+    <h1>BEM-VINDO AO QUIZ DE PSICOLOGIA</h1>
+    <h2>Informe o nome do Grupo para começar</h2>
+    <input type="text" id="username" placeholder="Digite no nome do Grupo">
+    <button id="start-quiz">Iniciar Quiz</button>
+
+  </section>
+
+  <div class="quiz-container" id="quiz-container">
+
+  <!--PERGUNTA NUMERO 1 -->
+  <div class="pergunta" data-resposta="1" data-pontos="100">
+    <h1 class="question">Assinale a alternativa que melhor define a relação entre ansiedade e autoestima:</h1>
+    <form>
+      <label class="option" >
+        <div class="questao"> A autoestima elevada causa transtornos de ansiedade.</div>
+      </label>
+      <label class="option">
+        <div class="questao"> A ansiedade, quando excessiva, pode diminuir a autoestima e a autoconfiança.</div>
+      </label>
+      <label class="option">
+        <div class="questao"> A ansiedade fortalece a autoconfiança, melhorando a autoestima.</div>
+      </label>
+      <label class="option">
+         <div class="questao"> Não há relação entre ansiedade e autoestima. </div>
+      </label>
+    </form>
+  </div>
+
+  <!--PERGUNTA NUMERO 2 -->
+    <div class="pergunta" data-resposta="2" data-pontos="85">
+    <h1 class="question">Quais são os três pilares da autoestima?</h1>
+    <form>
+      <label class="option">
+        <div class="questao"> Autoconfiança, autoajuda e autoimagem.</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Autoconhecimento, autovalorização e autoimagem.</div>
+      </label>
+      <label class="option">
+        <div class="questao">Autoconceito, autoimagem e autoeficácia.</div>
+      </label>
+      <label class="option">
+         <div class="questao"> Autoestima, empatia e autocontrole. </div>
+      </label>
+    </form>
+  </div>
+
+
+  <!--PERGUNTA NUMERO 3 -->
+    <div class="pergunta" data-resposta="3" data-pontos="115">
+    <h1 class="question">Um dos sintomas da baixa autoestima relacionada à ansiedade é:</h1>
+    <form>
+      <label class="option">
+        <div class="questao">Realizar várias tarefas ao mesmo tempo com facilidade.</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Evitar comparações com outras pessoas.</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Ter segurança constante em suas decisões. </div>
+      </label>
+      <label class="option">
+         <div class="questao"> Não conseguir dizer “não” e ignorar as próprias vontades. </div>
+      </label>
+    </form>
+  </div>
+
+
+  <!--PERGUNTA NUMERO 4 -->
+    <div class="pergunta" data-resposta="2" data-pontos="70"> 
+    <h1 class="question">Qual das alternativas abaixo apresenta um fator que pode causar ansiedade e baixa autoestima em estudantes do Ensino Médio?</h1>
+    <form>
+      <label class="option">
+        <div class="questao"> Prática de meditação diária.</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Incentivo familiar ao estudo.</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Uso excessivo de redes sociais..</div>
+      </label>
+      <label class="option">
+         <div class="questao">Realização de atividades físicas.</div>
+      </label>
+    </form>
+  </div>
+
+
+  <!--PERGUNTA NUMERO 5 -->
+    <div class="pergunta" data-resposta="2" data-pontos="130">
+    <h1 class="question">Qual das ações abaixo é recomendada para melhorar a autoestima?</h1>
+    <form>
+      <label class="option">
+        <div class="questao">Evitar reconhecer as próprias conquistas para manter a humildade.</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Ignorar sentimentos negativos e não falar sobre eles.</div>
+      </label>
+      <label class="option">
+        <div class="questao">Ser gentil consigo mesmo e comemorar as próprias conquistas.</div>
+      </label>
+      <label class="option">
+         <div class="questao">Esforçar-se ao máximo para agradar a todos, mesmo que ultrapasse seus limites.  </div>
+      </label>
+    </form>
+  </div>
+
+  </div>
+
+  <script src="quiz.js"></script>
+
+</body>
+</html>

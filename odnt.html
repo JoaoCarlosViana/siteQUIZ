@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Odontologia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="odnt.css">
+</head>
+<body>
+  
+    <section class="login">
+
+    <h1>BEM-VINDO AO QUIZ DE ODOTOLOGIA</h1>
+    <h2>Informe o   nome do Grupo para começar</h2>
+    <input type="text" id="username" placeholder="Digite no nome do Grupo">
+    <button id="start-quiz" onclick="iniciar()">Iniciar Quiz</button>
+
+  </section>
+  
+<div class="quiz-container" id="quiz-container">
+
+  <!--PERGUNTA NUMERO 1 -->
+  <div class="pergunta visivel" data-resposta="2" data-pontos="100">
+    <h1 class="question">Estudos associam a saúde bucal a indicadores emocionais. Por quê?</h1>
+    <form>
+      <label class="option">
+        <div class="questao"> Porque doenças bucais estão relacionadas a distúrbios psicológicos diretos.</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Porque a saúde bucal afeta exclusivamente a digestão e não o emocional.</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Porque alterações na saúde bucal, como halitose ou perda dentária, podem gerar insegurança, isolamento e impactar a autoestima.</div>
+      </label>
+      <label class="option">
+         <div class="questao"> Porque a saúde bucal não influencia o comportamento emocional. </div>
+      </label>
+    </form>
+  </div>
+
+  <!--PERGUNTA NUMERO 2 -->
+    <div class="pergunta" data-resposta="1" data-pontos="85">
+    <h1 class="question">Qual das opções representa um fator de risco indireto, mas significativo, para o desenvolvimento de cáries dentárias?</h1>
+    <form>
+      <label class="option">
+        <div class="questao"> Baixa frequência na escovação diária</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Redução do fluxo salivar (xerostomia)</div>
+      </label>
+      <label class="option">
+        <div class="questao">Consumo excessivo de alimentos pigmentados</div>
+      </label>
+      <label class="option">
+         <div class="questao"> Uso frequente de fio dental </div>
+      </label>
+    </form>
+  </div>
+
+
+  <!--PERGUNTA NUMERO 3 -->
+    <div class="pergunta" data-resposta="0" data-pontos="115">
+    <h1 class="question"> Qual das seguintes opções é uma contraindicação para o clareamento dental?</h1>
+    <form>
+      <label class="option">
+        <div class="questao">Grávidas ou lactantes</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Dentes com restaurações extensas fora da área estética</div>
+      </label>
+      <label class="option">
+        <div class="questao"> Pessoas com sensibilidade dentária temporária</div>
+      </label>
+      <label class="option">
+         <div class="questao"> Indivíduos que consomem café regularmente </div>
+      </label>
+    </form>
+  </div>
+
+
+  <!--PERGUNTA NUMERO 4 -->
+   <div class="pergunta" data-resposta="0" data-pontos="70"> 
+    <h1 class="question">Qual das seguintes opções representa uma desvantagem significativa das facetas dentárias de porcelana?</h1>
+    <form>
+      <label class="option">
+        <div class="questao">As facetas dentárias exigem uma manutenção diária mais rigorosa do que os dentes naturais.</div>
+      </label>
+      <label class="option">
+        <div class="questao">O procedimento de aplicação de facetas é geralmente reversível, permitindo o retorno ao estado original do dente.</div>
+      </label>
+      <label class="option">
+        <div class="questao">As facetas tendem a descolorir-se mais rapidamente do que os dentes naturais devido à absorção de pigmentos.</div>
+      </label>
+      <label class="option">
+         <div class="questao">Em muitos casos, é necessária a remoção irreversível de uma pequena quantidade do esmalte dentário original para a colocação das facetas.</div>
+      </label>
+    </form>
+  </div>
+
+
+  <!--PERGUNTA NUMERO 5 -->
+    <div class="pergunta" data-resposta="3" data-pontos="130">
+    <h1 class="question">Imagina a cena: o Joãozinho, de 8 anos, estava correndo na pracinha da Coparma, tropeçou e quebrou um dente na quina do escorregador.
+Ele começa a chorar de dor e a mãe dele entra em pânico. Onde deve ser o primeiro lugar que ela deve levá-lo pra atendimento gratuito?</h1>
+    <form>
+      <label class="option">
+        <div class="questao">Na farmácia, porque o balconista também faz curativo e sabe de tudo</div>
+      </label>
+      <label class="option">
+        <div class="questao"> No Núcleo do Câncer, porque lá tem dentista atendendo de graça</div>
+      </label>
+      <label class="option">
+        <div class="questao">Na Policlínica Odontológica de Ubá, que atende urgências odontológicas das 7h às 22h</div>
+      </label>
+      <label class="option">
+         <div class="questao">No posto de saúde do bairro, só pra ver se melhora sozinho</div>
+      </label>
+    </form>
+  </div>
+    
+  </div>
+  
+
+<script src="quiz.js"></script>
+
+</body>
+
+</html>
